@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".Second">
+
+    <LinearLayout
+        android:background="@color/top_bottom_color"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:textColor="@color/dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_tv_counter"
+            android:text="Counter/"
+            android:textSize="@dimen/text_question_size"
+            />
+        <TextView
+            android:textColor="@color/dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_tv_questionsSize"
+            android:text="Size"
+            android:textSize="@dimen/text_question_size"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/second_layout_margin_top"
+        android:background="@color/mid_color"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        >
+
+
+
+
+        <Button
+            android:layout_gravity="left"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_btn_voice"
+            android:background="@drawable/state_btn_voice"
+            />
+
+        <TextView
+            android:textColor="@color/dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_tv_question"
+            android:text="question"
+            android:textSize="@dimen/second_question_text_size"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@color/mid_color"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:background="@color/mid_color"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Press A Button For Answer"
+                    android:textSize="@dimen/second_answer_press_text"
+                    android:id="@+id/second_tv_answer"
+                    android:layout_margin="10dp"
+                    />
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/top_bottom_color"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:gravity="center"
+        >
+        <Button
+
+            android:layout_width="@dimen/second_btn_next_width"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_btn_back"
+            android:background="@drawable/state_btn_back"
+            android:layout_margin="@dimen/second_btn_margin"
+            />
+
+        <Button
+            android:layout_margin="@dimen/second_btn_margin"
+            android:layout_width="@dimen/second_btn_next_width"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_btn_answer"
+           android:background="@drawable/state_btn_answer"
+            />
+
+        <Button
+
+            android:layout_margin="@dimen/second_btn_margin"
+            android:layout_width="@dimen/second_btn_next_width"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_btn_next"
+            android:background="@drawable/state_btn_next"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".Second">
+
+    <LinearLayout
+        android:background="@color/top_bottom_color"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:textColor="@color/dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_tv_questionsSize"
+            android:text="Size"
+            android:textSize="@dimen/text_question_size"
+            />
+        <TextView
+            android:textColor="@color/dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_tv_counter"
+            android:text="Counter/"
+            android:textSize="@dimen/text_question_size"
+            />
+
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="20"
+        android:background="@color/mid_color">
+
+
+        <TextView
+            android:id="@+id/second_tv_question"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/second_question"
+            android:textColor="@color/dark"
+            android:textSize="20sp"
+            android:gravity="end"
+            android:layout_marginEnd="15dp"
+            android:padding="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/second_btn_voice"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/second_btn_voice"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:layout_toEndOf="@+id/second_tv_question"
+            android:background="@drawable/state_btn_voice"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/second_tv_question"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:background="@color/mid_color"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="@color/dark"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/press_a_button_for_answer"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:padding="3dp"
+                    android:id="@+id/second_tv_answer"
+                    />
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/top_bottom_color"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:gravity="center"
+        >
+
+        <Button
+
+            android:layout_margin="@dimen/second_btn_margin"
+            android:layout_width="@dimen/second_btn_next_width"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_btn_next"
+            android:background="@drawable/state_btn_next"
+            />
+        <Button
+            android:layout_margin="@dimen/second_btn_margin"
+            android:layout_width="@dimen/second_btn_next_width"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_btn_answer"
+            android:background="@drawable/state_btn_answer"
+            />
+        <Button
+
+            android:layout_width="@dimen/second_btn_next_width"
+            android:layout_height="wrap_content"
+            android:id="@+id/second_btn_back"
+            android:background="@drawable/state_btn_back"
+            android:layout_margin="@dimen/second_btn_margin"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Questions</string>
+    <string name="front_btn_questions">Questions</string>
+    <string name="front_btn_rateApp">RateAPP</string>
+    <string name="press_a_button_for_answer">Press A Button For Answer</string>
+    <string name="second_question">question</string>
+</resources>

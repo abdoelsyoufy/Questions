@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Questions</string>
+    <string name="front_btn_questions">اسئلة</string>
+    <string name="front_btn_rateApp">تقيم</string>
+    <string name="press_a_button_for_answer">اضغط علي الزر لتري الحل</string>
+    <string name="second_question">question</string>
+</resources>

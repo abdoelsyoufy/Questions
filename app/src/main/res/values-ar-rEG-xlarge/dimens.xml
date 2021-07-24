@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="another_layout" type="layout">@layout/front</item>
+    <item name="second_layout" type="layout">@layout/second</item>
+    <item name="layout_second" type="layout">@layout/second_layout</item>
+
+
+    <dimen name="front_btn_width">500dp</dimen>
+    <dimen name="front_btn_height">180dp</dimen>
+    <dimen name="front_btn_textSize">70sp</dimen>
+    <dimen name="front_btn_margin">70dp</dimen>
+
+    <dimen name="text_question_size">80sp</dimen>
+    <dimen name="second_question_text_size">70sp</dimen>
+    <dimen name="second_voic_icon_size">130dp</dimen>
+    <dimen name="second_answer_press_text">70sp</dimen>
+    <dimen name="second_btn_next_width">100dp</dimen>
+    <dimen name="second_btn_margin">30dp</dimen>
+    <dimen name="second_layout_margin_top">20dp</dimen>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Questions">
+        <item>
+            How OOPs Concepts in Java Work
+        </item>
+        <item>
+            How Abstraction Works
+        </item>
+        <item>
+            How Encapsulation Works
+        </item>
+        <item>
+            How Inheritance Works
+        </item>
+        <item>
+            How Polymorphism Works
+        </item>
+
+        <item>
+             Differences between abstract classes and interfaces?
+
+        </item>
+    </string-array>
+</resources>

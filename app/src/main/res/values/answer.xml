@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Answers">
+        <item>
+            OOPs, concepts in Java work by letting programmers create components that can be re-used in different ways, but still maintain security.
+        </item>
+        <item>
+Abstraction as an OOPs concept in Java works by letting programmers create useful, reusable tools. For example, a programmer can create several
+different types of objects. These can be variables, functions, or data structures. Programmers can also create different classes of objects. These are ways
+to define the objects.
+For instance, a class of variable might be an address. The class might specify that each address object shall have a name, street, city, and zip code. The
+objects, in this case, might be employee addresses, customer addresses, or supplier addresses.
+        </item>
+        <item>
+Encapsulation lets us re-use functionality without jeopardizing security. It’s a powerful OOPs concept in Java because it helps us save a lot of time. For
+example, we may create a piece of code that calls specific data from a database. It may be useful to reuse that code with other databases or processes.
+Encapsulation lets us do that while keeping our original data private. It also lets us alter our original code without breaking it for others who have adopted it
+in the meantime.
+        </item>
+        <item>
+ Inheritance is another labor-saving Java OOPs concept. It works by letting a new class adopt the properties of another. We call the inheriting class
+a subclass or a child class. The original class is often called the parent. We use the keyword extends to define a new class that inherits properties from
+an old class.
+        </item>
+
+        <item>
+ Polymorphism in Java works by using a reference to a parent class to affect an object in the child class. We might create a class called “horse” by extending
+the “animal” class. That class might also implement the “professional racing” class. The “horse” class is “polymorphic,” since it inherits attributes of both the
+“animal” and “professional racing” class.Two more examples of polymorphism in Java are method overriding and method overloading.
+In method overriding, the child class can use the OOP polymorphism concept to override a method of its parent class. That allows a programmer to use
+one method in different ways depending on whether it’s invoked by an object of the parent class or an object of the child class.
+In method overloading, a single method may perform different functions depending on the context in which it’s called. That is, a single method name might
+work in different ways depending on what arguments are passed to it.
+
+        </item>
+        <item>
+ An abstract class, is a class that contains both concrete and abstract methods (methods without implementations). An abstract method must be
+implemented by the abstract class sub-classes. Abstract classes cannot be instantiated and need to be extended to be used.
+An interface is like a blueprint/contract of a class (or it may be thought of as a class with methods, but without their implementation). It contains empty
+methods that represent, what all of its subclasses should have in common. The subclasses provide the implementation for each of these methods.
+Interfaces are implemented.
+        </item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/backgroundquestions"
+    tools:context=".Front">
+
+
+    <Button
+        android:id="@+id/front_btn_questions"
+        android:layout_width="@dimen/front_btn_width"
+        android:layout_height="@dimen/front_btn_height"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/front_btn_margin"
+        android:background="@drawable/front_btn_state"
+        android:text="@string/front_btn_questions"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/front_btn_textSize" />
+
+    <Button
+        android:id="@+id/front_btn_rateApp"
+        android:layout_width="@dimen/front_btn_width"
+        android:layout_height="@dimen/front_btn_height"
+        android:layout_below="@id/front_btn_questions"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/front_btn_margin"
+        android:background="@drawable/front_btn_state"
+        android:text="@string/front_btn_rateApp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/front_btn_textSize" />
+
+
+</RelativeLayout>
